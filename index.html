@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <h2>Consultar Endereço VIA CEP!</h2>
+    <P>Aluno: Luis Gustavo Souza Souto</P>
+    <p>Olá professor esse código eu utilizei no meu trabalho há um tempo atrás, e acabei salvando caso precisasse novamente!</p>
+    <form method="get" action=".">
+      <label
+        >Cep:
+        <input
+          name="cep"
+          type="text"
+          id="cep"
+          value=""
+          maxlength="9"
+          onblur="pesquisacep(this.value);"
+      /></label>
+      <label>Rua: <input name="rua" type="text" id="rua" /></label>
+      <label>Bairro: <input name="bairro" type="text" id="bairro" /></label>
+      <label>Cidade: <input name="cidade" type="text" id="cidade" /></label>
+      <label>Estado: <input name="uf" type="text" id="uf" /></label>
+      <label>IBGE: <input name="ibge" type="text" id="ibge" /></label>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
